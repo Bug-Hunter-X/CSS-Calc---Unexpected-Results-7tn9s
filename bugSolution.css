@@ -1,0 +1,13 @@
+/*Solution*/
+.container {
+  width: 500px;
+}
+
+.element {
+  width: calc((100% - 20px) / 2);
+  /*Added parenthesis to enforce correct order of operations*/
+  background-color: lightblue;
+  padding: 10px;
+  box-sizing: border-box; /*To include padding and border in the width calculation*/
+}
+/*The solution addresses the calculation issues, ensures the correct order of operations using parentheses, and uses consistent units throughout the calculation.*/
